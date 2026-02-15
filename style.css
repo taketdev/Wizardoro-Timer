@@ -64,6 +64,14 @@ h3 {
     font-size: 96px;
 }
 
+.wizard {
+    padding-top: 72px;
+}
+.wizard img{
+    height: 401px;
+    width: 281px;
+    filter: drop-shadow(0 4px 8px rgba(255, 255, 255, 0.3));
+}
 
 
 .footer {
