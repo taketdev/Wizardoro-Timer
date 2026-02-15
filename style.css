@@ -2,7 +2,6 @@ body {
     background-color: #3D2B46;
     font-family: 'Pixelify Sans', monospace;
     margin: 0 auto;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,4 +31,18 @@ h3 {
     align-items: center;
     border-radius: 32px;
     margin: 20px 0px 20px 0px;
+}
+
+.footer {
+    height: 78px;
+    width: 98%;
+    background-color: #84708E;
+    border-radius: 26px;
+    font-size: 48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer span{
+    font-size: 18px;
 }
