@@ -1,0 +1,35 @@
+body {
+    background-color: #3D2B46;
+    font-family: 'Pixelify Sans', monospace;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.header {
+    height: 78px;
+    width: 98%;
+    background-color: #84708E;
+    border-radius: 26px;
+    font-size: 48px;
+    display: flex;
+}
+h3 {
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.main_content {
+    background-image: url('./assets/img/background.png');
+    height: 896px;
+    width: 896px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    margin: 20px 0px 20px 0px;
+}
