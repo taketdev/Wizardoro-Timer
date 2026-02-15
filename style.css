@@ -47,11 +47,28 @@ h3 {
 .settingsicon {
   height: 74px;
   width: 74px;
+  cursor: pointer;
+  transition: all 0.1s ease;
 }
+
 .wandicon {
   height: 75px;
   width: 60px;
+  cursor: pointer;
+  transition: all 0.1s ease;
 }
+
+.settingsicon:hover,
+.wandicon:hover {
+  filter: brightness(1.2);
+}
+
+.settingsicon:active,
+.wandicon:active {
+  transform: translate(3px, 3px);
+  filter: brightness(1.1);
+}
+
 
 /* Timer */
 .timer {
