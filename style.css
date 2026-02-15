@@ -28,8 +28,9 @@ h3 {
     height: 896px;
     width: 896px;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     padding: 32px;
     border-radius: 32px;
     margin: 20px 0px 20px 0px;
@@ -37,6 +38,7 @@ h3 {
 }
 .icons {
     display: flex;
+    align-self: flex-start;
     gap: 16px;
 }
 .settingsicon {
@@ -46,6 +48,20 @@ h3 {
 .wandicon {
     height: 75px;
     width: 60px;
+}
+
+.timer{
+    height: 143px;
+    width: 396px;
+    background-color: #84708E;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 7px 6px 8.4px rgba(0,0,0,0.5), inset 8px 10px 7.2px rgba(0,0,0,0.5);
+}
+.timer span{
+    font-size: 96px;
 }
 
 
