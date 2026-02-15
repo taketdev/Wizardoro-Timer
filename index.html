@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
@@ -18,8 +19,15 @@
 
     <div class="main_content">
         <div class="icons">
-            <img class="settingsicon" src="./assets/img/icons/settings.png" alt="settings">
+            <img class="settingsicon" id="settingsBtn" src="./assets/img/icons/settings.png" alt="settings">
             <img class="wandicon" src="./assets/img/icons/wand.png" alt="wand">
+        </div>
+
+        <div class="settings_menu" id="settingsMenu">
+            <button class="wizard_button time_button">10 min</button>
+            <button class="wizard_button time_button">15 min</button>
+            <button class="wizard_button time_button">20 min</button>
+            <button class="wizard_button time_button selected">25 min</button>
         </div>
 
         <div class="timer">
@@ -47,5 +55,6 @@
     <div class="footer">
         <span>@made with love by @devtaket</span>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
