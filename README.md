@@ -1,12 +1,5 @@
 # Wizardoro Timer
 
-<<<<<<< HEAD
-=======
-## Screenshot
-
-![Wizardoro Timer screenshot](assets/screenshot/wizardoro_timer_screenshot.png)
-
->>>>>>> 6080a8d (updated ReadMe)
 A magical and enchanting Pomodoro timer designed to boost your productivity with a touch of wizardry! This web-based application helps you manage your work and break intervals with a charming wizard theme, complete with visual effects and sound notifications.
 
 ## Features
@@ -40,7 +33,6 @@ To run this project locally:
 
 1.  **Clone the repository:**
     ```bash
-<<<<<<< HEAD
     git clone https://ruta-zum-repo-hier-einfügen.git
     cd Wizardoro-Timer-main
     ```
@@ -86,51 +78,3 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ---
 Made with ❤️ by [@devtaket](https://github.com/devtaket)
-=======
-        git clone https://ruta-zum-repo-hier-einfügen.git
-            cd Wizardoro-Timer-main
-                ```
-                2.  **Open with a Web Browser:**
-                    Simply open the `index.html` file located in the root directory with any modern web browser (e.g., Chrome, Firefox, Safari).
-
-                    ## Project Structure
-
-                    ```
-                    .
-                    ├── index.html
-                    ├── script.js
-                    ├── style.css
-                    ├── .vscode/
-                    │   └── settings.json
-                    └── assets/
-                        ├── img/
-                            │   ├── background.png
-                                │   ├── border.png
-                                    │   ├── favicon-32x32.png
-                                        │   ├── wizard.png
-                                            │   └── icons/
-                                                │       ├── settings.png
-                                                    │       └── wand.png
-                                                        │   └── particles/
-                                                            │       ├── one_blue_paricle.png
-                                                                │       ├── one_particle.png
-                                                                    │       └── particles.png
-                                                                        └── sounds/
-                                                                                └── ring.wav
-                                                                                ```
-
-                                                                                ## Contributing
-
-                                                                                Contributions are welcome! If you have suggestions for improvements or new features, please feel free to:
-
-                                                                                1.  Fork the repository.
-                                                                                2.  Create a new branch (`git checkout -b feature/your-feature-name`).
-                                                                                3.  Make your changes.
-                                                                                4.  Commit your changes (`git commit -m 'Add new feature'`).
-                                                                                5.  Push to the branch (`git push origin feature/your-feature-name`).
-                                                                                6.  Open a Pull Request.
-
-                                                                                ---
-                                                                                Made with ❤️ by [@devtaket](https://github.com/devtaket)
-                                                                                
->>>>>>> 6080a8d (updated ReadMe)
