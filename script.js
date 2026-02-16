@@ -91,4 +91,21 @@ TIME_BUTTONS.forEach(btn => {
     });
 });
 
+const WAND_BTN = document.getElementById('wandBtn');
+const PARTICLES_LEFT = document.querySelector('.particles_left');
+const PARTICLES_RIGHT = document.querySelector('.particles_right');
+
+let particlesVisible = false;
+
+WAND_BTN.addEventListener('click', () => {
+    particlesVisible = !particlesVisible;
+    if (particlesVisible) {
+        PARTICLES_LEFT.classList.add('active');
+        PARTICLES_RIGHT.classList.add('active');
+    } else {
+        PARTICLES_LEFT.classList.remove('active');
+        PARTICLES_RIGHT.classList.remove('active');
+    }
+});
+
 updateDisplay();

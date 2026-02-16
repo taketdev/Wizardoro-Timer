@@ -149,6 +149,105 @@ h3 {
   filter: drop-shadow(0 4px 8px rgba(255, 255, 255, 0.3));
 }
 
+/* Wizard Container with Particles */
+.wizard_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.wizard {
+  position: relative;
+  z-index: 1;
+}
+
+.particles_left,
+.particles_right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 450px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.particles_left {
+  left: -254px;
+}
+
+.particles_right {
+  right: -292px;
+}
+
+.particles_left.active,
+.particles_right.active {
+  opacity: 1;
+}
+
+.particles_left img,
+.particles_right img {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.particles_left.active img,
+.particles_right.active img {
+  opacity: 1;
+}
+
+/* Left particles */
+.particles_left .pos-1 { top: 2%; left: 10px; }
+.particles_left .pos-2 { top: 10%; left: 80px; }
+.particles_left .pos-3 { top: 18%; left: 30px; }
+.particles_left .pos-4 { top: 26%; left: 120px; }
+.particles_left .pos-5 { top: 34%; left: -10px; }
+.particles_left .pos-6 { top: 42%; left: 100px; }
+.particles_left .pos-7 { top: 50%; left: 20px; }
+.particles_left .pos-8 { top: 58%; left: 140px; }
+.particles_left .pos-9 { top: 66%; left: -20px; }
+.particles_left .pos-10 { top: 74%; left: 90px; }
+.particles_left .pos-11 { top: 82%; left: 40px; }
+.particles_left .pos-12 { top: 90%; left: 150px; }
+.particles_left .pos-13 { top: 5%; left: 180px; }
+.particles_left .pos-14 { top: 22%; left: -30px; }
+.particles_left .pos-15 { top: 38%; left: 170px; }
+.particles_left .pos-16 { top: 54%; left: -40px; }
+.particles_left .pos-17 { top: 70%; left: 160px; }
+.particles_left .pos-18 { top: 86%; left: -25px; }
+.particles_left .pos-19 { top: 14%; left: 200px; }
+.particles_left .pos-20 { top: 78%; left: 210px; }
+
+/* Right particles */
+.particles_right .pos-1 { top: 4%; right: 20px; }
+.particles_right .pos-2 { top: 12%; right: 100px; }
+.particles_right .pos-3 { top: 20%; right: 40px; }
+.particles_right .pos-4 { top: 28%; right: 150px; }
+.particles_right .pos-5 { top: 36%; right: 10px; }
+.particles_right .pos-6 { top: 44%; right: 120px; }
+.particles_right .pos-7 { top: 52%; right: 60px; }
+.particles_right .pos-8 { top: 60%; right: 180px; }
+.particles_right .pos-9 { top: 68%; right: 30px; }
+.particles_right .pos-10 { top: 76%; right: 140px; }
+.particles_right .pos-11 { top: 84%; right: 80px; }
+.particles_right .pos-12 { top: 92%; right: 200px; }
+.particles_right .pos-13 { top: 8%; right: 220px; }
+.particles_right .pos-14 { top: 24%; right: 15px; }
+.particles_right .pos-15 { top: 40%; right: 190px; }
+.particles_right .pos-16 { top: 56%; right: 5px; }
+.particles_right .pos-17 { top: 72%; right: 170px; }
+.particles_right .pos-18 { top: 88%; right: 35px; }
+.particles_right .pos-19 { top: 16%; right: 240px; }
+.particles_right .pos-20 { top: 80%; right: 230px; }
+
+.size-md { height: 40px; width: 40px; }
+.size-lg { height: 55px; width: 55px; }
+.size-xl { height: 70px; width: 70px; }
+
 /* Buttons */
 .button_container {
   display: flex;
