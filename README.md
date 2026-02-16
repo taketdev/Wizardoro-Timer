@@ -1,6 +1,7 @@
 # Wizardoro Timer
 
 A magical and enchanting Pomodoro timer designed to boost your productivity with a touch of wizardry! This web-based application helps you manage your work and break intervals with a charming wizard theme, complete with visual effects and sound notifications.
+![Wizardoro Screenshot](./assets/screenshot/wizardoro_timer_screenshot.png)
 
 ## Features
 
